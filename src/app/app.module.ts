@@ -6,18 +6,19 @@ import { AppComponent } from './app.component';
 import { CustomerPageComponent } from './components/customer-page/customer-page.component';
 import { NotFoundPageComponent } from './components/not-found-page/not-found-page.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatPaginatorModule } from '@angular/material/paginator';
 
 @NgModule({
   declarations: [
     AppComponent,
     CustomerPageComponent,
-
     NotFoundPageComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatPaginatorModule
   ],
   providers: [],
   bootstrap: [AppComponent]
