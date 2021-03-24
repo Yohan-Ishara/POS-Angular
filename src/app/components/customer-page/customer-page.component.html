@@ -1,3 +1,52 @@
 <div class="main-wrap">
     <p class="title">Customer Form</p>
+
+
+    <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter Name" > 
+    </div>
+    <div class="mb-3">
+        <label for="address" class="form-label">Address</label>
+        <input type="text" class="form-control" id="address" placeholder="Enter Address" > 
+    </div>
+    <div class="mb-3">
+        <label for="contact" class="form-label">Contact</label>
+        <input type="number" class="form-control" id="contact" placeholder="Enter Contact Number" > 
+    </div>
+    <p style="text-align: right">
+        <button class="btn btn-primary">Save Customer</button>
+    </p>
+
+<hr>
+<table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Address</th>
+            <th scope="col">Contact</th>
+            <th scope="col">Image</th>
+            <th scope="col">Operate</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>yohan</td>
+            <td>kegalle</td>
+            <td>123456</td>
+            <td>
+                    <img style="width: 80px;height: 80px;" src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F968210608%2F960x0.jpg%3Ffit%3Dscale" 
+                    alt="">
+            </td>
+            <td>
+                <p>
+                    <button class="btn btn-success btn-sm">Update</button>&nbsp;
+                    <button class="btn btn-danger btn-sm">Delete</button>&nbsp;
+                </p>
+            </td>
+          </tr>
+        </tbody>
+  </table>
 </div>
